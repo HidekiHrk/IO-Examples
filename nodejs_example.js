@@ -1,4 +1,4 @@
-process.stdin.setRawMode(true);
+process.stdin.setRawMode(true); // Caso não queira pegar todas as teclas instantaneamente, remova esta linha
 
 process.stdin.on('data', (data) => {
     if(data == '\u0003'){
